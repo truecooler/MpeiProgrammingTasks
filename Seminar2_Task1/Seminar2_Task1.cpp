@@ -88,7 +88,7 @@ int main()
 
 	if (!CalcRowSum(firstMatrix, firstMatrixHeight, firstMatrixWight, FirstMatrixConditional, &firstSum))
 	{
-		cout << "В сгенерированной матрице нет строк, начинающихся с положительного элемента. Сгенерируйте матрицу заного." << endl;
+		cout << "В сгенерированной матрице нет строк, начинающихся с нулевого элемента. Сгенерируйте матрицу заного." << endl;
 	}
 	else
 	{
